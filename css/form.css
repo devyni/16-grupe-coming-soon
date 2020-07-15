@@ -1,0 +1,37 @@
+.form {
+    display: inline-block;
+    width: 100%;
+}
+    .form > input,
+    .form > textarea {
+        display: inline-block;
+        width: 100%;
+        float: left;
+        margin-bottom: 30px;
+        padding: 10px 0;
+        line-height: 25px;
+        font-size: 18px;
+        border: none;
+        border-bottom: 1px solid #999;
+        outline: none;
+    }
+    .form > textarea {
+        height: 121px;
+        min-height: 30px;
+        max-height: 605px;
+        resize: vertical;
+    }
+.columni-righ {
+    width: 100%;
+}
+        
+@media ( min-width: 1101px ) {
+    .form > input {
+        width: 47%;
+
+    }   
+        .form > input:first-child {
+            margin-right: 6%;
+
+    }   
+}
