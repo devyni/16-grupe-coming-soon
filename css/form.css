@@ -21,9 +21,7 @@
         max-height: 605px;
         resize: vertical;
     }
-.columni-righ {
-    width: 100%;
-}
+
         
 @media ( min-width: 1101px ) {
     .form > input {
